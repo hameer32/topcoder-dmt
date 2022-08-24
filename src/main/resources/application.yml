@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+    
+#logging config
+logging:
+  level:
+    root: DEBUG
+    web: DEBUG
