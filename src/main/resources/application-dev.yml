@@ -6,4 +6,4 @@ logging:
 spring:
   data:
     mongodb:
-      uri: mongodb://ut5u84yilbhsyxcrpchu:0oQ1l2T246tIsn2wm0zQ@n1-c2-mongodb-clevercloud-customers.services.clever-cloud.com:27017/bs6f0ag18uxdnl5
+      uri: mongodb://ut5u84yilbhsyxcrpchu:0oQ1l2T246tIsn2wm0zQ@localhost:27017/bs6f0ag18uxdnl5
