@@ -21,7 +21,7 @@ public class ToDoListController {
     }
 
     @GetMapping("todo/{id}")
-    Flux<ToDoListModel> getTodo(@PathVariable("id") String id) {
+    Mono<ToDoListModel> getTodo(@PathVariable("id") String id) {
         return service.getToDoList(id);
     }
 

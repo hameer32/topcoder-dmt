@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
  * @author <a href="mailto:hameer.dhandu70@gmail.com">Hameer Singh</a>
  */
 public interface ToDoListService {
-    Flux<ToDoListModel> getToDoList(String id);
+    Mono<ToDoListModel> getToDoList(String id);
 
     Flux<ToDoListModel> getToDoList();
 
